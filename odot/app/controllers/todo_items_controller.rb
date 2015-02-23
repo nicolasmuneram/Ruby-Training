@@ -70,9 +70,8 @@ class TodoItemsController < ApplicationController
   end
 
   def todo_item_params
-
     params[:todo_item].permit(:content)
-    redirect_to todo_list_todo_items_path 
+
   end
 
 end
